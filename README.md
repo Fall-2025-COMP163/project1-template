@@ -1,10 +1,9 @@
-COMP 163 - Project 1: Character Creator & Chronicles
+# COMP 163 - Project 1: Character Creator & Chronicles
 🎯 Project Overview
 Build a text-based RPG character creation and story progression system that demonstrates mastery of functions and file I/O operations.
 
-Required Functions
+# Required Functions 
 Complete these functions in project1_starter.py:
-
 create_character(name, character_class) - Create new character
 calculate_stats(character_class, level) - Calculate character stats
 save_character(character, filename) - Save character to file
@@ -12,7 +11,7 @@ load_character(filename) - Load character from file
 display_character(character) - Display character info
 level_up(character) - Increase character level
 
-🎭 Character Classes
+# 🎭 Character Classes
 Implement these character classes with unique stat distributions:
 
 Warrior: High strength, low magic, high health
@@ -20,7 +19,7 @@ Mage: Low strength, high magic, medium health
 Rogue: Medium strength, medium magic, low health
 Cleric: Medium strength, high magic, high health
 
-📁 Required File Format
+# 📁 Required File Format
 Your save_character() function must create files in this exact format:
 Character Name: [name]
 Class: [class]
@@ -45,20 +44,20 @@ After pushing your code, check the Actions tab to see automated test results:
 ✅ Green checkmarks = tests passed
 ❌ Red X's = tests failed (click to see details)
 
-⚠️ Important Notes
+# ⚠️ Important Notes
 Protected Files
 
 DO NOT MODIFY files in the tests/ directory
 DO NOT MODIFY files in the .github/ directory
 Modifying protected files will result in automatic academic integrity violation
 
-AI Usage Policy
+# AI Usage Policy
 
 ✅ Allowed: AI assistance for implementation, debugging, learning
 📝 Required: Document AI usage in code comments
 🎯 Must be able to explain: Every line of code during interview
 
-📝 Submission Checklist
+# 📝 Submission Checklist
 
  All required functions implemented
  Code passes all automated tests
@@ -66,7 +65,7 @@ AI Usage Policy
  Interview scheduled and completed
  AI usage documented in code comments
 
-🏆 Grading
+# 🏆 Grading
 
 Implementation (70%): Function correctness, file operations, error handling
 Interview (30%): Code explanation and live coding challenge
